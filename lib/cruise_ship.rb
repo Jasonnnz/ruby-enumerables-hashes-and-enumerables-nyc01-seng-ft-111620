@@ -9,6 +9,8 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key,value|
-    value if key == 'suite_a'
+    if key == 'suite_a'
+      value
+  end
   end
 end
